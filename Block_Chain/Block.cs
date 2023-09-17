@@ -8,7 +8,7 @@ namespace Block_Chain
     class Block
     {
         public int Index { get; }
-        public string PreviousHash { get; set; } 
+        public string PreviousHash { get; set; }
         public long Timestamp { get; }
         public string Data { get; }
         public int Nonce { get; private set; }
@@ -45,4 +45,5 @@ namespace Block_Chain
             }
         }
     }
+
 }
